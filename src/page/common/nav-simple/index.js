@@ -1,2 +1,2 @@
-'use strict'
-require('./index.css')
+'use strict';
+require('./index.css');

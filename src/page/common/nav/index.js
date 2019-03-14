@@ -20,7 +20,7 @@ var nav = {
             window.location.href = './user-register.html'
         });
         // 退出点击事件
-        $('js-logout').click(function () {
+        $('.js-logout').click(function () {
             _user.logout(function (res) {
                 window.location.reload()
             }, function (errMsg) {
